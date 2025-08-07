@@ -1,5 +1,7 @@
 import gradio as gr
-
+"""
+Entry point for the application.
+"""
 from aiwrite.gradgui import app
 
 
