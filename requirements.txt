@@ -1,2 +1,1 @@
-huggingface_hub>=0.25.2
 aiwrite @ git+https://github.com/Deeplearn-PeD/aiwrite@main
