@@ -2,7 +2,11 @@
     "version": "1.0",
     "services": {
         "web": {
-            "port": 7860
+            "port": 7860,
+            "volumes": {
+                "name": "databases",
+                "destinationPath": "/data"
+            },
         }
     }
 }
