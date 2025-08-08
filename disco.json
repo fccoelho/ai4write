@@ -6,10 +6,12 @@
         {
             "port": 7860,
             "volumes":
-            {
-                "name": "databases",
-                "destinationPath": "/data"
-            }
+            [
+                {
+                    "name": "databases",
+                    "destinationPath": "/data"
+                }
+            ]
         }
     }
 }
