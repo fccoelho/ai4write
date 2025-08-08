@@ -1,12 +1,15 @@
 {
     "version": "1.0",
-    "services": {
-        "web": {
+    "services":
+    {
+        "web":
+        {
             "port": 7860,
-            "volumes": {
+            "volumes":
+            {
                 "name": "databases",
                 "destinationPath": "/data"
-            },
+            }
         }
     }
 }
