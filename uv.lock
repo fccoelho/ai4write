@@ -8,7 +8,7 @@ resolution-markers = [
 
 [[package]]
 name = "ai4write"
-version = "0.1.0"
+version = "0.2.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiwrite" },
@@ -107,8 +107,8 @@ wheels = [
 
 [[package]]
 name = "aiwrite"
-version = "0.1.1"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#cd1953455ba2d2ffad94382dcbd11cda1a33c126" }
+version = "0.2.0"
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#f06901368acacf5fdf138d18e6e097dec579e720" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
@@ -250,7 +250,7 @@ wheels = [
 [[package]]
 name = "base-ai-agent"
 version = "0.3.0"
-source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git#173d39ed0d93a9693757561cfc4e8626e5484032" }
+source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git?rev=main#173d39ed0d93a9693757561cfc4e8626e5484032" }
 dependencies = [
     { name = "anthropic" },
     { name = "instructor" },
@@ -871,8 +871,8 @@ wheels = [
 
 [[package]]
 name = "libby"
-version = "0.4.1"
-source = { git = "https://github.com/Deeplearn-PeD/libby#fc571d8ba2a0e4dcad718aa0f65da43fedb5eb26" }
+version = "0.4.2"
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#9c80660412b92ffe62277cc63d374a8eb756538e" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
