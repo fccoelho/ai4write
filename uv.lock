@@ -108,7 +108,7 @@ wheels = [
 [[package]]
 name = "aiwrite"
 version = "0.2.0"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#fce79c2298051d02a0c7391b20bec640012b3a5a" }
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#32c2ccaee41cd499fa64428556e621c040f81805" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
@@ -872,7 +872,7 @@ wheels = [
 [[package]]
 name = "libby"
 version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#9c80660412b92ffe62277cc63d374a8eb756538e" }
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#e355852ca9b3c8b055a58d8fe7c88746d922e864" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
