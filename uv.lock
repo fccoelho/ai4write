@@ -872,7 +872,7 @@ wheels = [
 [[package]]
 name = "libby"
 version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#e355852ca9b3c8b055a58d8fe7c88746d922e864" }
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#1170f68e229ad29e4c0050ff82a893d007692178" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
