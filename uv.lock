@@ -108,7 +108,7 @@ wheels = [
 [[package]]
 name = "aiwrite"
 version = "0.3.1"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#45e57c230bc2363725d168e8706c5b24bffe36a3" }
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#a0de8b01d690e2681b609cda9e46465c9bb85bb5" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
