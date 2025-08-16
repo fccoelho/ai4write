@@ -8,7 +8,7 @@ resolution-markers = [
 
 [[package]]
 name = "ai4write"
-version = "0.2.0"
+version = "0.3.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiwrite" },
@@ -108,7 +108,7 @@ wheels = [
 [[package]]
 name = "aiwrite"
 version = "0.3.1"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#a0de8b01d690e2681b609cda9e46465c9bb85bb5" }
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#a6ff60bfedfe87bf6f7f64ae04f8bb3936256c5a" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
