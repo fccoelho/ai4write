@@ -107,12 +107,13 @@ wheels = [
 
 [[package]]
 name = "aiwrite"
-version = "0.3.2"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#10faf9d7d32d4d2f2188146c6ae65bec131a77a2" }
+version = "0.3.3"
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#82501c716ed338ac443edbe6cf04e5f2dbdaaaf6" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
     { name = "libby" },
+    { name = "loguru" },
     { name = "python-dotenv" },
     { name = "sqlmodel" },
 ]
@@ -875,7 +876,7 @@ wheels = [
 [[package]]
 name = "libby"
 version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#477695c5d22e5835d901e12d16adc1ee15b57b79" }
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#39b70473a8c7b4f586fb8f1d01bc46e241f1bbdd" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },

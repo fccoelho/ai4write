@@ -1,5 +1,4 @@
 # Requirements
-duckdb
 aiwrite @ git+https://github.com/Deeplearn-PeD/aiwrite@main
-
+duckdb
 
