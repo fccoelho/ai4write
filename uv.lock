@@ -8,7 +8,7 @@ resolution-markers = [
 
 [[package]]
 name = "ai4write"
-version = "0.3.0"
+version = "0.4.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiwrite" },
@@ -875,7 +875,7 @@ wheels = [
 [[package]]
 name = "libby"
 version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#3efcbc5bf42ede9bb9d85b4b29b424db4808f6c1" }
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#477695c5d22e5835d901e12d16adc1ee15b57b79" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
