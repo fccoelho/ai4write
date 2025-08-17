@@ -107,8 +107,8 @@ wheels = [
 
 [[package]]
 name = "aiwrite"
-version = "0.3.1"
-source = { git = "https://github.com/Deeplearn-PeD/aiwrite#ed3396c80d9a8ee25591860b4b6478676286961a" }
+version = "0.3.2"
+source = { git = "https://github.com/Deeplearn-PeD/aiwrite#38e5de6254354086a4219b0b5a680d01e642240d" }
 dependencies = [
     { name = "flet" },
     { name = "gradio" },
@@ -250,7 +250,7 @@ wheels = [
 [[package]]
 name = "base-ai-agent"
 version = "0.3.0"
-source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git?rev=main#173d39ed0d93a9693757561cfc4e8626e5484032" }
+source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git?rev=main#804cd88c2a5399de60839f7465ceb0941393b90c" }
 dependencies = [
     { name = "anthropic" },
     { name = "instructor" },
@@ -478,12 +478,15 @@ wheels = [
 
 [[package]]
 name = "fire"
-version = "0.7.0"
+version = "0.7.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "termcolor" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/b6/82c7e601d6d3c3278c40b7bd35e17e82aa227f050aa9f66cb7b7fce29471/fire-0.7.0.tar.gz", hash = "sha256:961550f07936eaf65ad1dc8360f2b2bf8408fad46abbfa4d2a3794f8d2a95cdf", size = 87189, upload-time = "2024-10-01T14:29:31.585Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c0/00/f8d10588d2019d6d6452653def1ee807353b21983db48550318424b5ff18/fire-0.7.1.tar.gz", hash = "sha256:3b208f05c736de98fb343310d090dcc4d8c78b2a89ea4f32b837c586270a9cbf", size = 88720, upload-time = "2025-08-16T20:20:24.175Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/4c/93d0f85318da65923e4b91c1c2ff03d8a458cbefebe3bc612a6693c7906d/fire-0.7.1-py3-none-any.whl", hash = "sha256:e43fd8a5033a9001e7e2973bab96070694b9f12f2e0ecf96d4683971b5ab1882", size = 115945, upload-time = "2025-08-16T20:20:22.87Z" },
+]
 
 [[package]]
 name = "flet"
@@ -872,7 +875,7 @@ wheels = [
 [[package]]
 name = "libby"
 version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#38945d55b2b312a9edcbb5436a63a1c71d5a549d" }
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#3efcbc5bf42ede9bb9d85b4b29b424db4808f6c1" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
