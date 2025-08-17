@@ -8,19 +8,17 @@ resolution-markers = [
 
 [[package]]
 name = "ai4write"
-version = "0.5.0"
+version = "0.6.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiwrite" },
     { name = "gradio" },
-    { name = "huggingface-hub" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "aiwrite", git = "https://github.com/Deeplearn-PeD/aiwrite" },
     { name = "gradio", specifier = ">=5.14.0" },
-    { name = "huggingface-hub", specifier = ">=0.25.2" },
 ]
 
 [[package]]
@@ -251,7 +249,7 @@ wheels = [
 [[package]]
 name = "base-ai-agent"
 version = "0.3.0"
-source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git?rev=main#804cd88c2a5399de60839f7465ceb0941393b90c" }
+source = { git = "https://github.com/Deeplearn-PeD/base-ai-agent.git?rev=main#27a24d19934b44bcf8f67e2da7eea09a5dc4163f" }
 dependencies = [
     { name = "anthropic" },
     { name = "instructor" },
@@ -875,8 +873,8 @@ wheels = [
 
 [[package]]
 name = "libby"
-version = "0.4.2"
-source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#39b70473a8c7b4f586fb8f1d01bc46e241f1bbdd" }
+version = "0.4.3"
+source = { git = "https://github.com/Deeplearn-PeD/libby?rev=main#6d0389b99b9798188c1a54b5e6af8ff1d3588e74" }
 dependencies = [
     { name = "asyncpg" },
     { name = "base-ai-agent" },
