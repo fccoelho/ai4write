@@ -9,7 +9,7 @@ import base64
 import io
 
 # Caminho para a imagem
-LOGO_PATH = os.path.join(os.path.dirname(__file__), 'logo.webp')
+LOGO_PATH = os.path.join(os.path.dirname(__file__), 'assets/logo.webp')
 
 # Variável para armazenar a imagem codificada em base64
 logo_base64 = None
@@ -23,12 +23,12 @@ try:
     
     # Codifica em base64
     logo_base64 = base64.b64encode(image_data).decode('utf-8')
-    print(f"Imagem codificada em base64 com sucesso ({len(logo_base64)} caracteres)")
+    # print(f"Imagem codificada em base64 com sucesso ({len(logo_base64)} caracteres)")
     
     # Decodifica de volta e carrega com PIL
     decoded_data = base64.b64decode(logo_base64)
     logo_image = Image.open(io.BytesIO(decoded_data))
-    print(f"Logo decodificado e carregado: {logo_image.size} pixels, modo {logo_image.mode}")
+    # print(f"Logo decodificado e carregado: {logo_image.size} pixels, modo {logo_image.mode}")
     
 except FileNotFoundError:
     print(f"Erro: Arquivo {LOGO_PATH} não encontrado")
