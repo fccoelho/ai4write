@@ -1,5 +1,6 @@
 # Requirements
 duckdb
+libby @ git+https://github.com/Deeplearn-PeD/libby@main
 aiwrite @ git+https://github.com/Deeplearn-PeD/aiwrite@main
 pillow
 
